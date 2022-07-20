@@ -1,0 +1,344 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ovolen Technologies</title>
+<style type="text/css">
+    
+* {
+margin:0; /*Убираем отступы по краям*/
+}
+body {
+ height: 3060px;
+ min-width:1000px;
+ font-family:Cambria, "Times New Roman", serif;
+}
+html { 
+ position:relative; 
+ min-height:100%;
+}
+
+.notpodcherk /* у ссылки с классом notpodcherk не будет подчеркивания по умолчанию */ 
+	{ 
+	text-decoration: none
+	} 
+#header {
+   width: 100%;
+	height:55px;
+	background: #8dbc93;
+	color:#fff;
+	padding-top:10px;
+}
+
+#content
+    {
+       width: 100%;
+        height: 1200px;
+        position: center;
+    }
+#montent
+    {
+        width: 100%;
+        height: 500px;
+    }
+    #godnota
+    {
+        width: 100%;
+        height: 575px;
+    }
+    #vodnota
+    {
+        width: 100%;
+        height: 500px;
+    }
+#footer {
+    width: 100%;
+	height: 60px; 
+	padding-top:10px;	
+	background:#CCC;
+	position: absolute;
+	bottom: 0;
+
+}
+#header .in_header {
+  margin:auto;
+  left: 300px;
+  padding-top: 5px;
+  font-size: 50px;
+  font-family: "SignPainter";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 200px;
+  top: -6px;
+  width: 167px;
+  height: 100px;
+  z-index: 1;
+
+}
+    #header .in_header2 {
+  width:800px;
+  margin:auto;
+  left: 300px;
+  padding-top: 5px;
+  font-size: 50px;
+  font-family: "SignPainter";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 400px;
+  top: -6px;
+  width: 167px;
+  height: 100px;
+  z-index: 1;
+}
+        #header .in_header3 {
+  width:800px;
+  margin:auto;
+  padding-top: 5px;
+  font-size: 50px;
+  font-family: "SignPainter";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 600px;
+  top: -6px;
+  width: 167px;
+  height: 100px;
+  z-index: 1;
+
+}
+            #header .in_header4 {
+  width:800px;
+  margin:auto;
+  padding-top: 5px;
+  font-size: 50px;
+  font-family: "SignPainter";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 800px;
+  top: -6px;
+  width: 167px;
+  height: 100px;
+  z-index: 1;
+
+}
+           #header .in_header5 {
+  width:800px;
+  margin:auto;
+  padding-top: 5px;
+  font-size: 50px;
+  font-family: "SignPainter";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 1175px;
+  top: -6px;
+  width: 167px;
+  height: 100px;
+  z-index: 1;
+
+} 
+    #header .in_logo
+    {
+        width: 50px;
+        height: 50px;
+        margin: auto;
+        position: absolute;left: 25px;top: 0px;
+        margin:auto;
+        padding-top:0px;
+    }
+     #header .in_my
+    {
+        width: 53px;
+        height: 61px;
+        margin: auto;
+        position: absolute;left: 1375px;top: 6px;
+        text-align: right;
+        padding-top:0px;
+    }
+    #content .in_content {
+	width:100%;
+    height: 800px;
+	margin:auto;
+    background-color: #e7d1a8;
+        
+    }
+    #content .happy
+    {
+        width: 350px;
+        height: 250px;
+        background-image: url(happy.gif);
+            margin: auto;
+        position: absolute;
+        left: 1000px;
+        top: 689px;
+    }
+    #content .text{
+  font-size: 70px;
+  font-family: "Avenir Next";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 0px;
+  top: 100px;
+  width: 1400px;
+  height: 397px;
+  z-index: 2;
+  }
+     #content .text2{
+  font-size: 70px;
+  font-family: "Avenir Next";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 100px;
+  width: 1463px;
+  height: 397px;
+  z-index: 2;
+  }
+     #content .in_back2
+    {
+        width: 100%;
+        height: 350px;
+        position:absolute;
+        top: 939px;
+        background-color: #a1d2f1;
+         }
+    #montent .gmgoing
+    {
+        width: 100%;
+        height: 270px;
+        background-image: url(gmgoing.gif);
+        position: absolute;
+        top; 1000px;
+    }
+     #montent .in_back3
+    {
+       width: 100%;
+        height: 500px;
+        position:absolute;
+        top: 1533px;
+        background-color: #2aa54d;
+    
+    }
+    #montent .text3
+    {
+        width: 100%;
+        height: 500px;
+        position:absolute;
+        right: 5px;
+        font-size: 45px;
+        font-family: "Avenir Next";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+        top: 1000px;
+  z-index: 2;
+    
+    }
+  
+#godnota .block
+    {
+        width: 100%;
+        height: 500px;
+        margin: auto;
+        
+      font-size: 55px;
+  font-family: "Avenir Next";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+    } 
+#vodnota .block2
+    {
+       width: 100%;
+        height: 500px;
+        background-color:darkseagreen;
+        margin: auto;
+        
+      font-size: 55px;
+  font-family: "Avenir Next";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  z-index: 2; 
+    }
+    #vodnota .gm
+    {
+        width: 350px;
+        height: 338px;
+        background-image: url(gomeryou2.png);
+        margin: auto;
+        position: absolute;
+        left: 1000px;
+        top:312px;
+        
+    }
+#footer .in_footer {
+	width:800px;
+	margin:auto;
+   
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="header">
+    <div class="in_logo">
+         <p> <img align="left" src="logo.png" ></p>
+     </div>
+    
+	<div class="in_header">
+        <body link="white" vlink="#ffffff" alink="#ffffff" bgcolor="white"></body>
+        <p><a class="notpodcherk" href="index.html">Главная</a></p>
+    </div>
+    <div class="in_header2">
+        <body link="white" vlink="#ffffff" alink="#ffffff" bgcolor="white"></body>
+        <p><a class="notpodcherk" href="description.html">Описание</a></p>
+    </div>
+     <div class="in_header3">
+         <body link="white" vlink="#ffffff" alink="#ffffff" bgcolor="white"></body>
+        <p><a class="notpodcherk" href="forme.html">Для кого?</a></p>
+         </div>
+    <div class="in_header5">
+        <body link="white" vlink="#ffffff" alink="#ffffff" bgcolor="white"></body>
+        <p><a class="notpodcherk" href="description.html">Контакты</a></p>
+    </div>
+    <div class="in_header4">
+        <body link="white" vlink="#ffffff" alink="#ffffff" bgcolor="white"></body>
+        <p><a class="notpodcherk" href="develop.html">Разработка</a></p>
+    </div>
+    <div class="in_my"><img align="right" src="my.png"></div>
+</div>
+    <div id="content">
+    <div class=in_content></div>
+    <div class=in_back2></div>
+        <div class="text"><h3>Эта идея, поможет не только ленивым людям).</h3>
+        <div>Но и тем, у кого есть проблемы со здровьем</div>
+        <div>Тем, кто нам дорог, но из-за своего преклонного возраста, по каким-либо причинам не может, дойти до магазина. </div>
+        </div>
+    </div>
+    <div id="montent">
+        <div class="in_back3"></div><div class="gmgoing"></div><div class="text3"><h3>Бежим покупать?</h3></div></div>
+    <div id="godnota"><div class="block"><h3>Сколько будет стоить?</h3></div></div>
+    <div id="vodnota">
+    <div class="block2">Цена на старте продаж:<h3>23.000 рублей</h3></div></div>
+    <div id="footer"><div class="in_footer"></div></div>
+    </body>
+</html>
